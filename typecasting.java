@@ -32,13 +32,6 @@ class abc{
 	}
 	
 }
-class x{
-	static char a='s';
-	static int b=(int)a; // char - int
-	public static void main(String[]args){
-		System.out.println(b);
-}
-}
 class d{
 static short a=65;
 static char b=(char)a;	//short - char
@@ -69,7 +62,13 @@ static int b = a;	//byte - int
 		System.out.println(b);
 }
 }
-
+class x{
+	static char a='s';
+	static int b=(int)a; // char - int
+	public static void main(String[]args){
+		System.out.println(b);
+}
+}
 class g{
 static float a= 90.567f;
 static double b = a;	//float - double
