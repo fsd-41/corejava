@@ -39,12 +39,7 @@ static char b=(char)a;	//short - char
 		System.out.println(b);
 }
 }
-class e{
-static char a='m';
-static short b=(short)a;	//char - short
-	public static void main(String[]args){
-		System.out.println(b);
-}
+
 }
 
 class e1{
@@ -68,6 +63,12 @@ class x{
 	public static void main(String[]args){
 		System.out.println(b);
 }
+}
+class e{
+static char a='m';
+static short b=(short)a;	//char - short
+	public static void main(String[]args){
+		System.out.println(b);
 }
 class g{
 static float a= 90.567f;
