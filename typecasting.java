@@ -1,4 +1,4 @@
-// widencasting:
+// narrow casting (or) explicit typecasting:
 class a{
 static int a=300;
 static byte b =(byte)a; // int - byte
@@ -61,7 +61,7 @@ static short b=(short)a;	//long - short -- it may cause some data loss coz short
 		System.out.println(b);
 }
 }
-// widencasting:
+// widencasting (or) implicit typecasting:
 class f{
 static byte a= 90;
 static int b = a;	//byte - int
